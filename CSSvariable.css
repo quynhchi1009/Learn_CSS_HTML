@@ -1,0 +1,9 @@
+:root{
+    --nameof-Var: red; /* global variable */
+}
+
+h1{
+    /* color:red; */
+    --myColor: green; /* local variable */
+    color: var(--nameof-Var)
+}

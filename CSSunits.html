@@ -1,0 +1,36 @@
+<!-- 
+absolut units: px, pt, cm, mm, inch, pc (co dinh)
+relative units: % (phu thuoc vao the chua no), 
+        rem(phu thuoc vao the html 1rem = 1html), 
+        em(phụ thuộc vào thẻ cha gần nhất: div ko co CSS font-size -> body.. -> html), 
+        vw(viewport weight 1vw = 1% trình duyệt),
+        vh(viewport height)
+        ... 
+    (=>thay doi theo do dai/rong cua trang web)
+box co do ngang= 50% body (body = trinh duyet web)
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <style>
+            html{
+                font-size: 100%;
+            }
+            .box{
+                width: 50%;
+                height: 90px;
+                background-color: aquamarine;
+            }
+            h1{
+                font-size: 1rem;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box"></div>
+        <div>
+            <h1>CSS Units</h1>
+        </div>
+    </body>
+</html>

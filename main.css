@@ -1,0 +1,13 @@
+h1 {
+    color:red;
+    font-size: 20px;
+}
+
+#first-heading {
+    color:blue
+}
+
+.second-heading {
+    color:beige;
+    font-size: 12px
+}

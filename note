@@ -1,0 +1,19 @@
+title: Ten cua Tab
+<meta charset="utf-8"> : ho tro viet Tieng Viet
+Cmd + / : comment
+<h1> ... <h6>
+<p> doan chu
+<img src="" alt=""> ~image
+<a> ~anchor lien ket link
+<ul> ~unordered list
+<ol> ~ordered list 
+<li> ~list item
+<table>
+
+Độ ưu tiên: 
+1. CSS internal và external: viết cái nào mới hơn thì thực thi cái mới nhất
+2. Inline > #id > .class > tag > * = html
+3. 2 cai trung nhau -> viết cái nào mới hơn thì thực thi cái mới nhất
+4. #headingID.headingClass{}
+<  h1#headingID.headingClass{} 
+5. color: black !important => co prior cao nhat
