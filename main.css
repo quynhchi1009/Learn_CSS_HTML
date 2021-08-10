@@ -9,5 +9,5 @@ h1 {
 
 .second-heading {
     color:beige;
-    font-size: 12px
+    font-size: calc(100% - 20%)
 }

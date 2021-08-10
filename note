@@ -17,3 +17,25 @@ Cmd + / : comment
 4. #headingID.headingClass{}
 <  h1#headingID.headingClass{} 
 5. color: black !important => co prior cao nhat
+
+CSS Functions:
+var()
+rgb(0,0,0) = black
+rgb(255,255,255) = white
+calc(120px + 50px)
+attr()
+
+Pseudo classes: 
+:hover(khi cham vao), 
+:active(bam+ giu chuot), 
+:first-child, 
+:last-child
+
+Pseudo elements: tao ra phan tu ko can html, chi can CSS
+1. the before, after co cac thuoc tinh binh thuong. before luon dung dau tien. After dung cuoi cung,
+sau cac phan tu khac
+::before {content: "", display: block}
+::after
+::first-letter
+::fist-line
+::selection(khi boi den)

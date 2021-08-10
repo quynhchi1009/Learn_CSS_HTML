@@ -14,13 +14,79 @@
 
         <!-- external CSS
             <link rel="stylesheet" href="main.css"> -->
+
+        <!--function attr() in ra Ten(link). Trong VD: Hoc Lap Trinh (https://fullstack.edu.vn)--> 
+        <!--Pseudo classes: :hover(khi cham vao), :active(bam+ giu chuot), first-child, last-child-->   
+        <style>
+            a::after {
+                content: "("attr(href)")";
+            }
+            .box::after{
+                content:attr(data-title)
+            }
+            h1:hover {
+                color: red;
+            }
+            li:first-child{
+                color:aquamarine;
+            }
+            .box::before{
+                content: "";
+                display: block;
+                width:50px;
+                height: 50px;
+                background-color: #fff;
+            }
+            .box::after{
+                content: "Quynh Chi";
+                color: violet;
+                display: block;
+                width:50px;
+                height: 50px;
+                background-color: #fff;
+            }
+            h1::first-letter{
+                font-size: 50px;
+            }
+            .box{
+                width: 60px;
+                height: 60px;
+                color: #fff;
+                display:flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .box1{
+                background-color: firebrick;
+                padding-top: 10px;
+                padding-right: 10px;
+                padding-left: 10px;
+                padding-bottom: 10px;
+            }
+            .header{
+                width:100%;
+                height: 100px;
+                background-color:gray;
+                padding: 20px;
+                box-sizing: border-box;
+                border: 10px dashed #fff;
+                background-clip: content-box;
+            }
+        </style>
+        
     </head>
     <body>
         <!--in- line CSS-->
         <h1 style="color:red; font-size: 16px">Get Vaccinated. Wear a Mask. Save Lives. (August 4)</h1>
+        <div class="box" data-title="Quynh Chi Lai"></div>
         <ul>
             <li>This Doodle's Reach</li>
             <li>This day in history</li>
         </ul>
+        <a href="https://fullstack.edu.vn">Hoc Lap Trinh</a>
+        <div class="box box1">Box1</div>
+        <div class="box box2">Box2</div>
+        <div class="box box3">Box3</div>
+        <div class="header"></div>
     </body>
 </html>
