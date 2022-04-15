@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <title>F8- Shop</title>
+    <meta charset="utf-8">
+    <style>
+        html,
+        body {
+            margin: 0;
+        }
+
+        .header {
+            width: 100%;
+            height: 100vh;
+            /* Hinh anh chong len nhau */
+            /* background-image: 
+            url(https://reviewdanang.net/wp-content/uploads/2021/10/review-danang.png),
+            url(data:image/jpeg;base64,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);
+            background-size: 100% auto;
+            background-repeat: repeat; */
+
+            background-image: linear-gradient(180deg, rgba(255, 255, 0, 0.5), rgba(0,0,255,.5)),
+             url(https://reviewdanang.net/wp-content/uploads/2021/10/review-danang.png);
+            /* lay chieu dai hon cua buc anh lam 100%
+            background-size: cover; 
+            lay chieu ngan hon cua buc anh lam 100%
+            background-size: contain;  */
+
+            background-size: 200px;
+            /* border: 20px dashed #ccc;
+            padding: 20px;
+            box-sizing: border-box;
+            background-origin: content-box; */
+
+            background-repeat: no-repeat;
+            background-position: bottom right;
+            background-position: 10%;
+            /* == background-position: 10% center; */
+            background-position: top 20px right 20%;
+            background-position: 30px 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header"></div>
+</body>
+
+</html>

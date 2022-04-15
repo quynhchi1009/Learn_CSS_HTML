@@ -39,3 +39,10 @@ sau cac phan tu khac
 ::first-letter
 ::fist-line
 ::selection(khi boi den)
+
+Anh nam tren phan content
+background-origin: content-box;
+Anh nam tren phan padding+content
+background-origin: padding-box;
+Anh nam tren phan padding+content+margin
+background-origin: border-box;

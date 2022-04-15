@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title></title>
+        <meta>
+        <style>
+            
+            .box{
+                background-color: bisque;
+                --height: 180px;
+                height: var(--height);
+                /* text-align: center; used in parent -> child has also this*/
+
+                /* Cach 2: can giua nhieu item cung 1 luc
+                display: flex;
+                align-items: center;
+                justify-content: center; */
+
+                /* Cach 3
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%); */
+            }
+            h3{
+                /* text-align: center; */
+                line-height: var(--height);
+
+                /* Cach 3:
+                position: relative; */
+            }
+
+            
+        </style>
+    </head>
+    <body>
+        <h3>Center me</h3>
+        <div class="box"></div>
+    </body>
+</html>
