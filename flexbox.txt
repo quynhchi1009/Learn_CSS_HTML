@@ -1,0 +1,42 @@
+https://codepen.io/enxaneta/full/adLPwv/
+THE FLEX MODEL on Mozilla
+
+
+display: flex | inline-flex
+
+flex-direction: row (auto) | column
+
+flex-wrap: nowrap (auto - ko xuong dong) | wrap | wrap-reverse
+
+flex-basis: (kich thuoc main-size)
+
+justify-content: Can theo main axis, danh cho parent element
+    flex-start | flex-end | center | space-between | space-around
+
+justify-self: danh cho child element (auto follow parent element) 
+    flex-start | flex-end | center
+
+align-content: Can theo cross axis
+    flex-start | flex-end | center
+
+align-self: 
+    flex-start | flex-end | center
+
+flex-grow: thay doi kich thuoc main-size
+
+flex-schink: 
+
+flex
+
+order
+
+
+Code mẫu sử dụng trong video
+    Chưa có flexbox: https://codepen.io/ng-ngc-sn-the-bashful/pen/JjdWEaq
+    Có flexbox: https://codepen.io/ng-ngc-sn-the-bashful/pen/RwPbzKr
+
+Chơi game
+Nếu muốn rèn luyện thêm và nắm chắc hơn về flexbox thì các bạn có thể tham khảo 3 games sau nhé
+https://codingfantasy.com/games/flexboxadventure/play
+https://flexboxfroggy.com/
+http://www.flexboxdefense.com/
